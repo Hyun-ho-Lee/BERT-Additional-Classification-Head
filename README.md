@@ -3,11 +3,17 @@
 # Requirement 
 
 python >= 3.7
+ 
 pytorch >= 1.10
+ 
 transformers == 4.19.2
+ 
 nltk
+ 
 tqdm
+ 
 numpy
+ 
 pandas
 
 
