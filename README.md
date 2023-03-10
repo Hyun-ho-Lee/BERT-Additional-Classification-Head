@@ -1,28 +1,24 @@
 # BERT-Additional-Classification-Head
 
-# Requirement 
-
-python >= 3.7
- 
-pytorch >= 1.10
- 
-transformers == 4.19.2
- 
-nltk
- 
-tqdm
- 
-numpy
- 
-pandas
 
 
-# Dataset 
+## Requirements
+- python >= 3.7
+- pytorch >= 1.10
+- transformers == 4.19.2
+- nltk
+- tqdm
+- numpy
+- pandas
+
+
+
+## Dataset 
 
 BERTSUM 을 이용하여 Extarctive Sumaarization 추출 ( Ratio = 0.5 ) 
 
 
-# MODEL  
+## MODEL  
 
 
 본 연구에서는 원문에서 생성된 추출 요약문 을 통하여 언어 모델 감성 분류 성능을 향상시키는 방법을 제안
@@ -36,7 +32,7 @@ BERTSUM 을 이용하여 Extarctive Sumaarization 추출 ( Ratio = 0.5 )
 ![image](https://user-images.githubusercontent.com/76906638/168416938-92cd54f1-7594-490b-a20b-1c524b3c04cd.png)
 
 
-# FrameWork 
+## FrameWork 
 
 ![image](https://user-images.githubusercontent.com/76906638/168416948-6dfc3b78-d287-4be0-83b1-f5ddb58ef0aa.png)
 
@@ -49,7 +45,7 @@ BERTSUM 을 이용하여 Extarctive Sumaarization 추출 ( Ratio = 0.5 )
 
 
 
-#  Dataset 
+##  Dataset 
 
 Base Model 과 Summary include Model 은 사전 학습 된 BERT – Base Model 사용
 
@@ -67,7 +63,7 @@ Data set : IMDB Dataset ( 0 : Negative , 1 : Positive )
     python3 main.py --epoch 5 
 
 
-# Conclusion 
+## Conclusion 
 
 Summary 를 포함했을 때 Base line 보다 성능이 감소하는 것을 확인
 
