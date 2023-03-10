@@ -46,6 +46,10 @@ Data set : IMDB Dataset ( 0 : Negative , 1 : Positive )
  • Validation Data : 4969
  • Test Data : 25000
 
+#Run 
+
+    python3 main.py --epoch 5 
+
 
 # Conclusion 
 
